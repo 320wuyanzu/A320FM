@@ -43,6 +43,17 @@ function catalog() {
     ];
 }
 
+
+function sidebar_divide(){
+    return{
+        '/ATA36/':['','./00.md','./11.md','./12.md', './14.md', './20.md'],
+        '/':['']
+    }
+}
+/**
+ * 折叠式侧边栏
+ */
+/*
 function sidebar_group(){
     return [
     {
@@ -161,10 +172,4 @@ function sidebar_group(){
         children:[]
     }
 ]}
-
-function sidebar_divide(){
-    return{
-        '/ATA36/':['','./00.md','./11.md','./12.md', './14.md', './20.md'],
-        '/':['']
-    }
-}
+*/
