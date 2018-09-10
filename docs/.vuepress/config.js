@@ -123,7 +123,7 @@ function sidebar_group(){
     {
         title: 'ATA36-Pneumatic',
         collapsable: true,
-        children:['/ATA36/', '/ATA36/00.md', '/ATA36/10/', '/ATA36/20/']
+        children:['/ATA36/', './00.md', './11.md', './20.md']
     },
     {
         title: 'ATA38',
@@ -164,7 +164,7 @@ function sidebar_group(){
 
 function sidebar_divide(){
     return{
-        '/ATA36/':['','00','./10/','./20/'],
+        '/ATA36/':['','./00.md','./11.md','./12.md', './14.md', './20.md'],
         '/':['']
     }
 }
