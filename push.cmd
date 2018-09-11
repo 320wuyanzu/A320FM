@@ -11,5 +11,5 @@ git push -f git@github.com:320wuyanzu/A320FM.git master:gh-pages
 :: 再push源文档
 cd ../../../
 git add *
-git commit -m"还是不要用折叠侧边栏好了"
+git commit -m"修正链接错误问题"
 git push -f git@github.com:320wuyanzu/A320FM.git master:master
