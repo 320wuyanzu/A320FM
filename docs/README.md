@@ -2,7 +2,7 @@
 home: true
 heroImage: /A320.jpg
 actionText: Switch to A330 →
-actionLink: https://320wuyanzu.github.io/A330/
+actionLink: https://320wuyanzu.github.io/410/
 footer: MIT Licensed | Copyright © 2018-present 风中的切变
 ---
 
