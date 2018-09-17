@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 heroImage: /A320.jpg
 actionText: Switch to A330 →
 actionLink: https://320wuyanzu.github.io/410/

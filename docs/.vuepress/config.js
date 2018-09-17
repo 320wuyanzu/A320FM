@@ -7,167 +7,141 @@ module.exports = {
         nav: [
             { text: 'Personal Homepage', link: 'https://320wuyanzu.github.io' },
             { text: 'Home', link: '/' },
-            { text: 'A320FM Notes', items: catalog() },
             { text: 'A330 Notes', link: 'https://320wuyanzu.github.io/410.html' },
         ],
-        sidebarDepth:2,
-        sidebar: sidebar_divide()
+        sidebarDepth: 2,
+        sidebar: sidebar_group()
     }
 }
-function sidebar_divide(){
-    return{
-        '/ATA31/':[''],
-        '/ATA36/':['','./00.md','./11.md','./12.md', './14.md', './20.md'],
-        '/':['']
-    }
-}
+
+
 /**
  * 折叠式侧边栏
  */
-/*
-function sidebar_group(){
-    return [
-    {
-        title: 'ATA21',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA22',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA23',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA24',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA25',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA26',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA27',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA28',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA29',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA30',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA31',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA32',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA33',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA34',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA35',
-        collapsable: true,
-        children:[]
-    },
-    {
+function sidebar_group() {
+    let ATA21 = {
+        title: 'ATA21-Air Conditioning',
+        children: []
+    };
+    let ATA22 = {
+        title: 'ATA22-Auto Flight',
+        children: []
+    };
+    let ATA23 = {
+        title: 'ATA23-Communications',
+        children: []
+    };
+    let ATA24 = {
+        title: 'ATA24-Electrical Power',
+        children: []
+    };
+    let ATA25 = {
+        title: 'ATA25-Equipment/Furnishings',
+        children: []
+    };
+    let ATA26 = {
+        title: 'ATA26-Fire Protection',
+        children: []
+    };
+    let ATA27 = {
+        title: 'ATA27-Flight Controls',
+        children: []
+    };
+    let ATA28 = {
+        title: 'ATA28-Fuel',
+        children: []
+    };
+    let ATA29 = {
+        title: 'ATA29-Hydraulic Power',
+        children: []
+    };
+    let ATA30 = {
+        title: 'ATA30-Ice/Rain Protection',
+        children: []
+    };
+    let ATA31 = {
+        title: 'ATA31-Indicating/Recording',
+        children: ['/ATA31/']
+    };
+    let ATA32 = {
+        title: 'ATA32-Landing Gear',
+        children: []
+    };
+    let ATA33 = {
+        title: 'ATA33-Lights',
+        children: []
+    };
+    let ATA34 = {
+        title: 'ATA34-Navigation',
+        children: []
+    };
+    let ATA35 = {
+        title: 'ATA35-Oxygen',
+        children: []
+    };
+    let ATA36 = {
         title: 'ATA36-Pneumatic',
-        collapsable: true,
-        children:['/ATA36/', './00.md', './11.md', './20.md']
-    },
-    {
-        title: 'ATA38',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA46',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA47',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA49',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA51',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA52',
-        collapsable: true,
-        children:[]
-    },
-    {
-        title: 'ATA22',
-        collapsable: true,
-        children:[]
-    }
-]}
-*/
-function catalog() {
+        children: ['/ATA36/', './ATA36/00', './ATA36/11', './ATA36/12', './ATA36/14', './ATA36/20']
+    };
+    let ATA38 = {
+        title: 'ATA38-Water/Waste',
+        children: []
+    };
+    let ATA46 = {
+        title: 'ATA46-Information Systems',
+        children: []
+    };
+    let ATA47 = {
+        title: 'ATA47-Inert Gas System',
+        children: []
+    };
+    let ATA49 = {
+        title: 'ATA49-APU',
+        children: []
+    };
+    let ATA51 = {
+        title: 'ATA51-Structures',
+        children: []
+    };
+    let ATA52 = {
+        title: 'ATA52-Doors',
+        children: []
+    };
+    let ATA70 = {
+        title: 'ATA70-Power Plant',
+        children: []
+    };
     return [
-        { text: 'ATA-21 Air Conditioning', link: './catalog#ata-21-air-conditioning' },
-        { text: 'ATA-22 Auto Flight', link: './catalog#ata-22-auto-flight' },
-        { text: 'ATA-23 Communications', link: './catalog#ata-23-communications' },
-        { text: 'ATA-24 Electrical Power', link: './catalog#ata-24-electrical-power' },
-        { text: 'ATA-25 Equipment/Furnishings', link: './catalog#ata-25-equipment-furnishings' },
-        { text: 'ATA-26 Fire Protection', link: './catalog#ata-26-fire-protection' },
-        { text: 'ATA-27 Flight Controls', link: './catalog#ata-27-flight-controls' },
-        { text: 'ATA-28 Fuel', link: './catalog#ata-28-fuel' },
-        { text: 'ATA-29 Hydraulic Power', link: './catalog#ata-29-hydraulic-power' },
-        { text: 'ATA-30 Ice/Rain Protection', link: './catalog#ata-30-ice-and-rain-protection' },
-        { text: 'ATA-31 Indicating/Recording Systems', link: '/ATA31/' },
-        { text: 'ATA-32 Landing Gear', link: './catalog#ata-32-landing-gear' },
-        { text: 'ATA-33 Lights', link: './catalog#ata-33-lights' },
-        { text: 'ATA-34 Navigation', link: './catalog#ata-34-navigation' },
-        { text: 'ATA-35 Oxygen', link: './catalog#ata-35-oxygen' },
-        { text: 'ATA-36 Pneumatic', link: '/ATA36/' },
-        { text: 'ATA-38 Water/Waste', link: './catalog#ata-38-water-waste' },
-        { text: 'ATA-46 Information Systems', link: './catalog#ata-46-information-systems' },
-        { text: 'ATA-47 Inert Gas System', link: './catalog#ata-47-inert-gas-system' },
-        { text: 'ATA-49 APU', link: './catalog#ata-49-airborne-auxiliary-power' },
-        { text: 'ATA-51 Structures', link: './catalog#ata-51-structures' },
-        { text: 'ATA-52 Doors', link: './catalog#ata-52-doors' },
-        { text: 'ATA-70 Power Plant(CFM56)', link: './catalog#ata-70-power-plant-cfm56' }
-    ];
+        ATA21,
+        ATA22,
+        ATA23,
+        ATA24,
+        ATA25,
+        ATA26,
+        ATA27,
+        ATA28,
+        ATA29,
+        ATA30,
+        ATA31,
+        ATA32,
+        ATA33,
+        ATA34,
+        ATA35,
+        ATA36,
+        ATA38,
+        ATA46,
+        ATA47,
+        ATA49,
+        ATA51,
+        ATA52,
+        ATA70
+    ]
+}
+
+function sidebar_divide() {
+    return {
+        '/ATA31/': [''],
+        '/ATA36/': ['', './00.md', './11.md', './12.md', './14.md', './20.md'],
+        '/': ['']
+    }
 }

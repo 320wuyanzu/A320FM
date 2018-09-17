@@ -11,5 +11,5 @@ git push -f git@github.com:320wuyanzu/A320FM.git master:gh-pages
 :: 再push源文档
 cd ../../../
 git add *
-git commit -m"哎"
-git push -f git@github.com:320wuyanzu/A320FM.git master:master
+git commit -m"改成折叠式目录，取消主页"
+git push -f git@github.com:320wuyanzu/A320FM.git master:collapse
