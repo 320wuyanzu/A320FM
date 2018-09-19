@@ -12,4 +12,4 @@ git push -f git@github.com:320wuyanzu/A320FM.git master:gh-pages
 cd ../../../
 git add *
 git commit -m"发动机的目录出来了"
-git push -f git@github.com:320wuyanzu/A320FM.git master:collapse
+git push -f git@github.com:320wuyanzu/A320FM.git collapse:collapse
