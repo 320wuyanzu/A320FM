@@ -32,11 +32,11 @@ footer: MIT Licensed | Copyright © 2018-present 风中的切变
 - `开发中: ATA-33-Lights`
 - `开发中: ATA-34-Navigation`
 - `开发中: ATA-35-Oxygen`
-- > **ATA-**[**36-Pneumatic**](/ATA36/)(部分完成)
+- > [**ATA-36-Pneumatic**](/ATA36/)(部分完成)
 - `开发中: ATA-38-Water/Waste`
 - `开发中: ATA-46-Information Systems`
 - `开发中: ATA-47-Inert Gas System`
 - `开发中: ATA-49-Airborne Auxiliary Power`
 - `开发中: ATA-51-Structures`
 - `开发中: ATA-52-Doors`
-- `开发中: ATA-70-Power Plant(CFM56)`
+- > [**ATA-71-Power Plant(CFM56)**](/ATA71/)(正在写)

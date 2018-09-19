@@ -107,9 +107,9 @@ function sidebar_group() {
         title: 'ATA52-Doors',
         children: []
     };
-    let ATA70 = {
-        title: 'ATA70-Power Plant',
-        children: []
+    let ATA71 = {
+        title: 'ATA71-Power Plant(CFM56)',
+        children: ['/ATA71/', '/ATA71/72/', '/ATA71/73/', '/ATA71/74/','/ATA71/75/','/ATA71/76/','/ATA71/77/','/ATA71/78/','/ATA71/79/','/ATA71/80/']
     };
     return [
         ATA21,
@@ -134,7 +134,7 @@ function sidebar_group() {
         ATA49,
         ATA51,
         ATA52,
-        ATA70
+        ATA71
     ]
 }
 
