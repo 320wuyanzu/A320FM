@@ -39,4 +39,4 @@ footer: MIT Licensed | Copyright © 2018-present 风中的切变
 - `开发中: ATA-49-Airborne Auxiliary Power`
 - `开发中: ATA-51-Structures`
 - `开发中: ATA-52-Doors`
-- > [**ATA-71-Power Plant(CFM56)**](/ATA71/)(正在写)
+- > [**ATA-71-Power Plant(CFM56)**](/ATA71/00.md)(正在写)
