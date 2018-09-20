@@ -109,7 +109,7 @@ function sidebar_group() {
     };
     let ATA71 = {
         title: 'ATA71-Power Plant(CFM56)',
-        children: ['/ATA71/', '/ATA71/72/', '/ATA71/73/', '/ATA71/74/','/ATA71/75/','/ATA71/76/','/ATA71/77/','/ATA71/78/','/ATA71/79/','/ATA71/80/']
+        children: ['/ATA71/', './ATA71/10', './ATA71/20', './ATA71/40', './ATA71/50', './ATA71/70', '/ATA71/72/', '/ATA71/73/', '/ATA71/74/', '/ATA71/75/', '/ATA71/76/', '/ATA71/77/', '/ATA71/78/', '/ATA71/79/', '/ATA71/80/']
     };
     return [
         ATA21,

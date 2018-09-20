@@ -11,5 +11,5 @@ git push -f git@github.com:320wuyanzu/A320FM.git master:gh-pages
 :: 再push源文档
 cd ../../../
 git add *
-git commit -m"发动机的目录出来了"
+git commit -m"71-00 OJBK"
 git push -f git@github.com:320wuyanzu/A320FM.git collapse:collapse
